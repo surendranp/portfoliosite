@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    min-height: 100vh;
+    background: #e7f3fd;
+} */
+
+/* .container {
+    position: relative;
+    max-width: 1350px;
+    width: 100%;
+    padding: 20px;
+    margin: 50px auto;
+} */
+
+.buttons-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.buttons-section .active {
+    color: white;
+    background-color: #1885d2;
+    transition: 0.5s;
+}
+
+button {
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-attachment: #fff;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.05);
+}
+
+.cards-section {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    /* transition: 5s; */
+    
+}
+.strink{
+  flex-basis:0px;
+  transition: 2s;
+  transform: translate(scale,1);
+}
+
+
+.card {
+    flex-basis: 700px 700px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.05);
+    transition: 0.5s;
+    /* height: auto; */
+}
+
+.hide {
+    display: none;  
+}
+
+.card img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 8px 8px 0px 0px;
+}
+
+/* .card-body {
+    padding: 15px 20px;
+} */
+
+.card-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+/* .card-description {
+    font-size: 14px;
+} */
+
+span{
+    cursor: pointer;
+}
+
+
+
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* #myImg:hover {opacity: 0.7;} */
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 10000; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+  
+  /* Modal Content (image) */
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  /* Caption of Modal Image */
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #f0efef;
+    padding: 10px 0;
+    height: auto;
+  }
+  
+  /* Add Animation */
+  .modal-content, #caption {  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .close {
+    position: absolute;
+    top: 100px;
+    right: 355px;
+    color: #555555;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    z-index: 10000;
+    transform: translate(scale(1));
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 80%;
+    }
+    .close{
+      position: absolute;
+    top: 100px;
+    right: 75px;
+    }
+  }
+
+
+
+
+  
