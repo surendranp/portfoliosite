@@ -770,6 +770,21 @@ section .container {
   color: #1885d2;
 }
 
+
+@media (max-width: 992px) {
+  .contact .info-box .social-links {
+    margin: 5px 0 0 8px;
+    display: flex;
+  }
+  iframe{
+    width: 100%;
+  }
+}
+  
+
+
+
+
 .contact .php-email-form {
   padding: 30px;
   background: rgba(173, 69, 69, 0.08);
