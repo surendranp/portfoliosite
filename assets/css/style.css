@@ -521,6 +521,28 @@ section .container {
   background: #1885d2;
   border: 2px solid #1885d2;
 }
+/* --------------------------------------- */
+.Knowledge{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.Knowledge-1{
+  width: 50%;
+}
+@media (max-width: 699px) {
+  .Knowledge{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .Knowledge-1{
+    width: 100%;
+  }
+}
+
+
 
 /*--------------------------------------------------------------
 # Services
@@ -805,7 +827,7 @@ section .container {
     align-items: center;
     margin-top: 500px;
   }
-  
+
 }
 
 
