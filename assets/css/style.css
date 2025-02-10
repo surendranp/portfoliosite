@@ -10,7 +10,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/surendar\ banner-withoutoutline-croped.png") top right no-repeat;
+  background: #040404 url("../img/surendar\ banner-withoutoutline-croped.webp") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -811,7 +811,7 @@ section .container {
   body::before {
     content: "";
     position: fixed;
-    background: #767676 url("../img/surendar\ banner-croped.png") center right no-repeat;
+    background: #767676 url("../img/surendar\ banner-croped.webp") center right no-repeat;
     background-size: cover;
     left: 0;
     right: 0;
