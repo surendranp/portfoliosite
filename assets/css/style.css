@@ -735,9 +735,10 @@ section .container {
   background: rgba(255, 255, 255, 0.1);
 }
 
+
 .contact .info-box h3 {
   font-size: 20px;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.804);
   font-weight: 700;
   margin: 10px 0 8px 68px;
 }
@@ -751,25 +752,30 @@ section .container {
 }
 
 .contact .info-box .social-links {
-  margin: 5px 0 0 68px;
+  margin: 10px 0 0 10px;
   display: flex;
+  flex-wrap: wrap;
 }
-
-.contact .info-box .social-links a {
-  font-size: 18px;
-  display: inline-block;
+.contact .info-box .social-links-cont a i.bi {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
   color: #fff;
   line-height: 1;
-  margin-right: 12px;
-  transition: 0.3s;
+  margin-right: 8px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
 }
 
-.contact .info-box .social-links a:hover {
+.contact .info-box .social-links-cont a i.bi:hover {
   color: #1885d2;
 }
 
 
-@media (max-width: 992px) {
+@media (max-width: 1399px) {
   .contact .info-box .social-links {
     margin: 5px 0 0 8px;
     display: flex;
